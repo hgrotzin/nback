@@ -1,5 +1,6 @@
 # nback
 Verbal version of the nback task - variables and stimuli are determined from an input csv (not hard-coded) so the task is easy to edit for personal use.
+
 0-, 1-, and 2-back conditions.
 Instruction slide on the screen for 3000ms at the beginning of each block.
 Letter stimuli on the screen for 500ms, followed by 2500ms fixation, followed by jittered fixation (15, 17, or 19s) at the end of the block.
