@@ -7,7 +7,7 @@ Letter stimuli on the screen for 500ms, followed by 2500ms fixation, followed by
 2 runs - 9 blocks each (3 for each condition) - 10 trials in each block.
 14 min total (7min for each run).
 
-Requires PsychoPy2
+Requires PsychoPy
 
 The pop-up window asks for run type: scanner, backup, or practice.
 Scanner runs the entire tasks - both runs with a pause in between to check in with subject. 
