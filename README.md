@@ -1,5 +1,5 @@
 # nback
-Verbal version of the nback task coded in python - variables and stimuli are determined from an input csv (not hard-coded) so the task is easy to edit for personal use.
+Verbal version of the nback task coded in python - variables and stimuli are determined from an input csv (not hard-coded) so the task is easy to edit for personal use. Requires PsychoPy.
 
 0-, 1-, and 2-back conditions.
 Instruction slide on the screen for 3000ms at the beginning of each block.
@@ -7,12 +7,14 @@ Letter stimuli on the screen for 500ms, followed by 2500ms fixation, followed by
 2 runs - 9 blocks each (3 for each condition) - 10 trials in each block.
 14 min total (7min for each run).
 
-Requires PsychoPy
-
 The pop-up window asks for run type: scanner, backup, or practice.
 Scanner runs the entire tasks - both runs with a pause in between to check in with subject. 
 Backup runs just the second run of the task - use this if PsychoPy crashes during the task and you only need to run the second half.
 Practice runs a mini-version of the task that can be administered to participants before beginning the full task. There is one block each of the 0-, 1-, and 2-back conditions.
+
+Keys pressed can be edited in the code itself. Current target keys are 1 (right-handed index finger button box press) and 4 (left-handed index finger button box press). Space bar moves through the instructions and + moves through the trigger slide (space bar will also move past this slide for ease of testing/starting task outside of scanner - can remove this when task is ready for scanner runs to avoid human error).
+
+Stimuli are loaded into a local dictionary before the task begins so as not to affect the task timing during the actual trials.
 
 The task outputs a csv containing statistics for: 
 Total correct hits - target letter was correctly identified.
