@@ -1,5 +1,5 @@
 # nback
-Verbal version of the nback task - variables and stimuli are determined from an input csv (not hard-coded) so the task is easy to edit for personal use.
+Verbal version of the nback task coded in python - variables and stimuli are determined from an input csv (not hard-coded) so the task is easy to edit for personal use.
 
 0-, 1-, and 2-back conditions.
 Instruction slide on the screen for 3000ms at the beginning of each block.
