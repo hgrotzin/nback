@@ -1,0 +1,2 @@
+total_hits,total_corr_skips,total_false_alarm,total_misses,total_accuracy,hit_accuracy,false_alarm_rate,avg_rxn_time
+51,120,6,3,95,94.44444444,4.7619,0.570357268
