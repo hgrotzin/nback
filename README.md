@@ -22,6 +22,8 @@ Keys pressed can be edited in the code itself. Current target keys are 1 (right-
 
 Stimuli are loaded into a local dictionary before the task begins so as not to affect the task timing during the actual trials.
 
+Output
+------
 The task outputs a csv containing statistics for: 
 - **Total correct hits** - target letter was correctly identified.
 - **Total correct skips** - non-target letter was correctly skipped.
