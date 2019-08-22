@@ -9,6 +9,8 @@ Letter stimuli on the screen for 500ms, followed by 2500ms fixation, followed by
 2 runs - 9 blocks each (3 for each condition) - 10 trials in each block.
 14 min total (7min for each run).
 
+Stimuli are loaded into a local dictionary before the task begins so as not to affect the task timing during the actual trials.
+
 Runs
 ----
 The pop-up window asks for run type: scanner, backup, or practice.
@@ -19,8 +21,6 @@ The pop-up window asks for run type: scanner, backup, or practice.
 Subject key responses
 --------------------
 Keys pressed can be edited in the code itself. Current target keys are 1 (right-handed index finger button box press) and 4 (left-handed index finger button box press). Space bar moves through the instructions and + moves through the trigger slide (space bar will also move past this slide for ease of testing/starting task outside of scanner - can remove this when task is ready for scanner runs to avoid human error).
-
-Stimuli are loaded into a local dictionary before the task begins so as not to affect the task timing during the actual trials.
 
 Output
 ------
