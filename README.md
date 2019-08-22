@@ -12,9 +12,9 @@ Letter stimuli on the screen for 500ms, followed by 2500ms fixation, followed by
 Runs
 ----
 The pop-up window asks for run type: scanner, backup, or practice.
-Scanner runs the entire tasks - both runs with a pause in between to check in with subject. 
-Backup runs just the second run of the task - use this if PsychoPy crashes during the task and you only need to run the second half.
-Practice runs a mini-version of the task that can be administered to participants before beginning the full task. There is one block each of the 0-, 1-, and 2-back conditions.
+- Scanner runs the entire tasks - both runs with a pause in between to check in with subject. 
+- Backup runs just the second run of the task - use this if PsychoPy crashes during the task and you only need to run the second half.
+- Practice runs a mini-version of the task that can be administered to participants before beginning the full task. There is one block each of the 0-, 1-, and 2-back conditions.
 
 Subject key responses
 --------------------
