@@ -14,9 +14,9 @@ Stimuli are loaded into a local dictionary before the task begins so as not to a
 Runs
 ----
 The pop-up window asks for run type: scanner, backup, or practice.
-- Scanner runs the entire tasks - both runs with a pause in between to check in with subject. 
-- Backup runs just the second run of the task - use this if PsychoPy crashes during the task and you only need to run the second half.
-- Practice runs a mini-version of the task that can be administered to participants before beginning the full task. There is one block each of the 0-, 1-, and 2-back conditions.
+- Scanner runs the entire tasks - both runs with a pause in between to check in with subject. This uses nback_AB.csv.
+- Backup runs just the second run of the task - use this if PsychoPy crashes during the task and you only need to run the second half. This uses nback_B.csv
+- Practice runs a mini-version of the task that can be administered to participants before beginning the full task. There is one block each of the 0-, 1-, and 2-back conditions. This uses nback_practice.csv.
 
 Subject key responses
 --------------------
