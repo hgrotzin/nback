@@ -1,5 +1,5 @@
 # nback
-Verbal version of the nback task coded in python - variables and stimuli are determined from an input csv (not hard-coded) so the task is easy to edit for personal use. Requires PsychoPy.
+Verbal version of the nback task coded in python. For MR scanner use as a working-memory paradigm. Variables and stimuli are determined from an input csv (not hard-coded) so the task is easy to edit for personal use. Requires PsychoPy.
 
 Task Parameters
 ---------------
