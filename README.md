@@ -20,7 +20,7 @@ The pop-up window asks for run type: scanner, backup, or practice.
 
 Subject key responses
 --------------------
-Keys pressed can be edited in the code itself. Current target keys are 1 (right-handed index finger button box press) and 4 (left-handed index finger button box press). Space bar moves through the instructions and + moves through the trigger slide (space bar will also move past this slide for ease of testing/starting task outside of scanner - can remove this when task is ready for scanner runs to avoid human error).
+Keys pressed can be edited in the code itself. Current target keys are 1 (right-handed index finger button box press) and 4 (left-handed index finger button box press). Space bar moves through the instructions and + moves through the trigger slide (space bar will also move past this slide for ease of testing/starting task outside of scanner).
 
 Output
 ------
